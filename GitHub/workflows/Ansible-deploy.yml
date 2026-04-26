@@ -1,1 +1,9 @@
+---
+- name: deploy nginx via cicd pipeline
+  hosts:
+  become: yes
+  gather_factts : yes 
+  
 
+  tasks:
+    - name : update 
